@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="../mainpage.css">
     <title>Document</title>
 </head>
-<body onload="fetchApi()">
+<body onload="fetchMunicipio()">
     
     <div class="main-content-container">
-        <div class="main-header">
-            <div id="title">Estados do Brasil</div>
+        <div class="main-header-municipios">
+            <div id="title"></div>
+            <a href="../index.html"><div id="home">Ir para Home</div></a>
             <a href="../favoritos/index.html"><div id="favs">Ver Favoritos</div></a>
         </div>
         <div class="main-content">
-            <ul class="estados-list"></ul>
+            <ul class="municipios-list">
+
+            </ul>
         </div>
         <div class="main-footer">© 2024 Prova de Programação Web</div>
     </div>
 
-    <script src="./mainpage.js"></script>
+    <script src="./municipios.js"></script>
 </body>
 </html>
